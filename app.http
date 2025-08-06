@@ -1,0 +1,16 @@
+# API
+
+### PING
+GET http://127.0.0.1:3000/ping-pong
+
+### Send email
+POST http://127.0.0.1:3000/send-email
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "address": "popecan1000@gmail.com",
+    "subject": "Hurray, Event emitted!!!",
+    "text": "Hello there! We are here to congratulate you on winning nothing this month. Please put in more effort..."
+}
+
